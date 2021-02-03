@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d13e9821-6451-4cc3-9fb6-57dcb5c4c72f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/cfgs_ugatit.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/cfgs_ugatit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ugatit.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/ugatit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool/demo_ugatit.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/demo_ugatit.py" afterDir="false" />
-    </list>
+    <list default="true" id="d13e9821-6451-4cc3-9fb6-57dcb5c4c72f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +199,7 @@
       <workItem from="1612154852885" duration="5158000" />
       <workItem from="1612164066315" duration="596000" />
       <workItem from="1612171268971" duration="1528000" />
-      <workItem from="1612327485612" duration="1049000" />
+      <workItem from="1612327485612" duration="1424000" />
     </task>
     <servers />
   </component>

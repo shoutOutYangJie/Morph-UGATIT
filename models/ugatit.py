@@ -306,8 +306,8 @@ class Discriminator(nn.Module):
 class UGATIT(object):
     def __init__(self, args):
         super().__init__()
-        self.G_A = Generator(args.inc, args.outc, args.ngf, args.use_dropout, args.n_blocks, args.anime)
-        self.G_B = Generator(args.inc, args.outc, args.ngf, args.use_dropout, args.n_blocks, args.anime)
+        self.G_A = Generator(args.inc, args.outc, args.ngf, args.use_dropout, args.n_blocks, anime=args.anime)
+        self.G_B = Generator(args.inc, args.outc, args.ngf, args.use_dropout, args.n_blocks, anime=args.anime)
         if args.training:
             self.D_A = Discriminator(args.inc, args.ndf, args.d_layers)
             self.D_B = Discriminator(args.inc, args.ndf, args.d_layers)
