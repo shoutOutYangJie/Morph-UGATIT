@@ -71,10 +71,13 @@ Note: if you want to try "selfie2anime", please add a extra term "--anime".
 Here I provide my pretrained model weights.
 
 for "adult2child" dataset
+
 [ugatit](https://drive.google.com/file/d/1L_VOmmHHw4ZikfSkQDcuQMwsWO0ntmFo/view?usp=sharing)
+
 [morph ugatit](https://drive.google.com/file/d/1vfeY-35DTKgBvh_zNQ1tGBtGCp6SFv8L/view?usp=sharing)
 
 for "selfie2anime" dataset
+
 [ugatit](https://drive.google.com/file/d/1QmvS9DQrtWMQrlu1YtjEpGLeQcvhxkbf/view?usp=sharing)
 
 More results can be seen [here](https://zhuanlan.zhihu.com/p/348124048)
