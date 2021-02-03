@@ -46,7 +46,7 @@ if __name__ == '__main__':
     check_dir_existing(saved_dir)
 
 
-    alignment_loc = '../../ini/shape_predictor_68_face_landmarks.dat'
+    alignment_loc = '../../models_weights_path/shape_predictor_68_face_landmarks.dat'
     size = 256
     # repeat_time = 3
 
