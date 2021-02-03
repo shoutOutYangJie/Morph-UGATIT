@@ -8,6 +8,7 @@ a morph transfer UGATIT for image translation.
 
 # Introduction
 [中文技术文档](https://zhuanlan.zhihu.com/p/348124048)
+
 This is Pytorch implementation of UGATIT, paper "U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation".
 
 Additionally, I DIY the model by adding two modules, a MLP module to learn a latent zone and an identity preserving loss. These two factors make UGATIT to achieve a progressive domain transfer for image translation. I call this method Morph UGATIT.
