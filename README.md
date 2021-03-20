@@ -66,8 +66,9 @@ cd tool
 python demo_ugatit.py --type ugatit --resume ${ckpt path}$ --input ${image dir}$ --saved-dir ${result location}$ --align
 python demo_morph_ugatit.py --resume ${ckpt path}$ --input ${image dir}$ --saved-dir ${result location}$ --align
 ```
-
-Note: if you want to try "selfie2anime", please add a extra term "--anime".
+Note:
+* If a parameter "--align" activates, a preprocess of croping real face from an entire image is executed with Dlib face detector. Therefor, if you want to test on some datasets which are aligned, please don't activate this term. 
+* If you want to try "selfie2anime", please add a extra term "--anime".
 
 Here I provide my pretrained model weights.
 
