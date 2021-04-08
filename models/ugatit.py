@@ -341,8 +341,6 @@ class UGATIT(object):
     def test_forward(self, x, dir):
         raise NotImplementedError
 
-    def load_state_dict(self):
-        pass
 
     def state_dict(self):
         params = {

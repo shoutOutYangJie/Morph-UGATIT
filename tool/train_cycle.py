@@ -182,7 +182,7 @@ class Train:
             if self.rank == 0:
                 if epoch > (args.total_epoch // 2-1):
                     # TODO: correct this problem.
-                    # 目前这里存储有问题
+                    # 目前这里存储有问题，用的不是nn.module，没有model.module
                     torch.save(self.model.module, f'{self.args.saved_dir}/{epoch}.pt')
                 print('finish {}-th epoch.'.format(epoch))
 

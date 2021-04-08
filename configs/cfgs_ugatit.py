@@ -26,6 +26,8 @@ cfgs = {
     # training
     'total_epoch': 100,  # 100->200
     'tensorboard': '/share/yangjie08/cycle_gan_log',
+    'resume': '',   # resume training.
+    'start_epoch': 0,  # if resume, please set start epoch.
     # 'saved_dir': '/home/yangjie08/My-CycleGAN/ckpt_adult_child',
     'saved_dir': '/home/yangjie08/My-CycleGAN/ckpt_sel_anime_ugatit',
     'pool_size': 10,

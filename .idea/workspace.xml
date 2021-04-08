@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d13e9821-6451-4cc3-9fb6-57dcb5c4c72f" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="d13e9821-6451-4cc3-9fb6-57dcb5c4c72f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/My-CycleGAN.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/My-CycleGAN.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/cfgs_ugatit.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/cfgs_ugatit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ugatit.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/ugatit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/train_cycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/train_cycle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/train_ugatit.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool/train_ugatit.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,21 +29,17 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Python.demo_morph_ugatit">
     <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -159,6 +162,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -200,6 +204,7 @@
       <workItem from="1612164066315" duration="596000" />
       <workItem from="1612171268971" duration="1528000" />
       <workItem from="1612327485612" duration="2122000" />
+      <workItem from="1612347724997" duration="1074000" />
     </task>
     <servers />
   </component>
@@ -211,24 +216,11 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/My_CycleGAN$demo_morph_ugatit.coverage" NAME="demo_morph_ugatit Coverage Results" MODIFIED="1612172178403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
-    <SUITE FILE_PATH="coverage/My_CycleGAN$ugatit.coverage" NAME="ugatit Coverage Results" MODIFIED="1610803427277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
-    <SUITE FILE_PATH="coverage/My_CycleGAN$unpair_dataset.coverage" NAME="unpair_dataset Coverage Results" MODIFIED="1610502718486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datasets" />
-    <SUITE FILE_PATH="coverage/My_CycleGAN$ugatit_plus.coverage" NAME="ugatit_plus Coverage Results" MODIFIED="1612103903352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
-    <SUITE FILE_PATH="coverage/My_CycleGAN$demo_ugatit.coverage" NAME="demo_ugatit Coverage Results" MODIFIED="1611895956576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
-    <SUITE FILE_PATH="coverage/My_CycleGAN$interpolation_morph.coverage" NAME="interpolation_morph Coverage Results" MODIFIED="1612164219711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tool" />
-    <SUITE FILE_PATH="coverage/My_CycleGAN$base_networks.coverage" NAME="base_networks Coverage Results" MODIFIED="1610503208758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
-    <SUITE FILE_PATH="coverage/My_CycleGAN$cycle_gan.coverage" NAME="cycle_gan Coverage Results" MODIFIED="1610504300175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
-    <SUITE FILE_PATH="coverage/My_CycleGAN$face_detector.coverage" NAME="face_detector Coverage Results" MODIFIED="1611299197675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3rdparty/face_alignment/center_face" />
-    <SUITE FILE_PATH="coverage/My_CycleGAN$api.coverage" NAME="api Coverage Results" MODIFIED="1612157080676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3rdparty/face_alignment" />
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -32,6 +32,10 @@ class Train:
             self.td = tensorboard.SummaryWriter(args.tensorboard)
 
         self.init()
+        if len(args.resume) != 0:  # resume
+            print('start load weight for resuming training.')
+            self.model.load_state_dict(args.resume)
+
 
     def init(self):
         opt = self.args
@@ -186,7 +190,10 @@ class Train:
 
     def train(self):
         args = self.args
-        for epoch in range(args.total_epoch):
+        if args.start_epoch != 0:  # if resume, changing lr.
+            for _ in range(args.start_epoch):
+                self.update_learning_rate()
+        for epoch in range(args.start_epoch, args.total_epoch):
             self.sample.set_epoch(epoch)  # shuffle
             self.train_on_epoch(epoch)
 
